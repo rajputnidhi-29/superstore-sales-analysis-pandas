@@ -2,18 +2,7 @@
 
 ## 📌 Project Overview
 
-This project demonstrates data analysis on the Superstore Sales dataset using **Python** and **Pandas**. It covers data cleaning, feature engineering, filtering, grouping, pivot table analysis, date analysis, and business insights to extract meaningful information from the dataset.
-
----
-
-## 🎯 Objectives
-
-- Perform data cleaning and preprocessing
-- Handle missing values
-- Create new features for analysis
-- Analyze sales and profit trends
-- Perform business-oriented analysis using Pandas
-- Practice real-world data analysis techniques
+This project analyzes the Superstore Sales dataset using **Python** and **Pandas**. It covers the complete data analysis workflow, including data understanding, data cleaning, feature engineering, filtering, grouping, pivot table analysis, date analysis, and business insights.
 
 ---
 
@@ -34,78 +23,95 @@ This project demonstrates data analysis on the Superstore Sales dataset using **
 
 ---
 
-## 📈 Project Workflow
+# 📖 Project Workflow
 
-### Level 1 – Basic Pandas
-- Dataset Overview
-- Shape & Columns
-- Data Types
-- Statistical Summary
-- Missing Values
-- Duplicate Records
+## Level 1 – Data Understanding
 
-### Level 2 – Data Cleaning & Feature Engineering
-- Missing Value Handling
-- String Cleaning
-- Profit Status
-- Discount Percentage
-- Profit Margin
-- Order Year & Month Extraction
-
-### Level 3 – Filtering & Sorting
-- Category-wise Filtering
-- State-wise Filtering
-- Year-wise Filtering
-- Discount Filtering
-- Top Sales Records
-- Lowest Profit Records
-
-### Level 4 – GroupBy Analysis
-- Category-wise Sales
-- Category-wise Profit
-- Region-wise Sales
-- State-wise Profit
-- Segment-wise Average Sales
-- Ship Mode-wise Order Count
-- Top Customers by Sales
-- Top Products by Profit
-- Year-wise Sales
-- Month-wise Sales
-
-### Level 5 – Pivot Table Analysis
-- Category vs Region Sales
-- Category vs Segment Profit
-- State vs Category Sales
-- Region-wise Average Discount
-- Ship Mode vs Category Order Count
-
-### Level 6 – Date Analysis
-- Delivery Days Analysis
-
-### Business Insights
-- Top 10 Customers by Sales
-- Top 10 Products by Profit
-- Best Performing State
-- Most Frequently Ordered Product
-- Top 3 Customers by Sales in Each Region
-- Running Total of Sales
-- Product Ranking by Sales
-- Segment-wise Profit Contribution
-- Highest Sales Month
-- Highest Profit Year
-- Customer Retention Analysis
+- Display the number of rows and columns
+- Display column names
+- Dataset information
+- Statistical summary
+- Missing value check
+- Data types
+- Duplicate records
+- Unique customers
+- Convert Order Date & Ship Date into DateTime format
 
 ---
 
-## 💡 Key Insights
+## Level 2 – Data Cleaning & Feature Engineering
 
-- Identified the top revenue-generating customers.
-- Determined the most profitable products.
-- Compared sales across different regions and categories.
-- Ranked products based on sales performance.
-- Calculated each segment's contribution to overall profit.
-- Identified the highest sales month and highest profit year.
-- Analyzed repeat customers for customer retention.
+- Fill missing values
+- Remove extra spaces from Product Name
+- Create Profit Status column
+- Round Sales values
+- Create Discount Percentage column
+- Extract Order Year & Month
+
+---
+
+## Level 3 – Filtering & Sorting
+
+- Furniture Category
+- Technology Category
+- Sales greater than 1000
+- Discount greater than 20%
+- Loss Orders
+- Records from Specific City
+- January Orders
+- Top 10 Highest Sales
+
+---
+
+## Level 4 – GroupBy Analysis
+
+- Category-wise Total Sales
+- Category-wise Total Profit
+- Region-wise Total Sales
+- Segment-wise Average Sales
+- Ship Mode-wise Order Count
+- Orders by Customer
+- Top 10 Customers by Sales
+- Top 10 Products by Profit
+- Year-wise Total Sales
+
+---
+
+## Level 5 – Pivot Table Analysis
+
+- Category vs Region Sales
+- Category vs Segment Sales
+- Sub-Category vs Region Sales
+- Region-wise Average Discount
+- Ship Mode vs Category Order Count
+
+---
+
+## Level 6 – Date Analysis
+
+- Delivery Days
+- Highest Sales Month
+- Highest Profit Year
+
+---
+
+## Business Insights
+
+- Top 3 Customers from each Region
+- Running Total of Sales
+- Rank Sub-Category by Sales
+- Percentage Contribution of Each Segment
+- Most Frequently Ordered Product
+- Customer Retention Analysis
+- Profit Margin Calculation
+- Best Performing State
+
+---
+
+## 📚 Libraries Used
+
+- Pandas
+- NumPy
 
 ---
 
@@ -121,17 +127,20 @@ superstore-sales-analysis-pandas/
 
 ---
 
-## 🚀 Skills Demonstrated
+## 🎯 Project Outcome
+
+This project demonstrates practical knowledge of:
 
 - Data Cleaning
+- Data Preprocessing
 - Feature Engineering
-- Exploratory Data Analysis (EDA)
-- Pandas
-- NumPy
+- Filtering & Sorting
 - GroupBy Operations
 - Pivot Tables
-- Business Analytics
-- Data Analysis
+- Date Analysis
+- Business Insights
+- Exploratory Data Analysis (EDA)
+- Python (Pandas & NumPy)
 
 ---
 
@@ -139,8 +148,6 @@ superstore-sales-analysis-pandas/
 
 **Nidhi Chauhan**
 
-🎓 BCA Student | 📊 Aspiring Data Analyst
+BCA Student | Aspiring Data Analyst
 
-### Connect with Me
-
-- GitHub: https://github.com/rajputnidhi-29
+GitHub: https://github.com/rajputnidhi-29
